@@ -1,0 +1,2618 @@
+<!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Patio Tv</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- ===== Link Swiper's CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./Patio Tv_files/cards_style.css" />
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="keywords" content="PATIO TV, streaming" />
+
+    <script src="./Patio Tv_files/jquery.min.js.descarga"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#horizontalTab").easyResponsiveTabs({
+          type: "default", //Types: default, vertical, accordion
+          width: "auto", //auto or any width like 600px
+          fit: false, // 100% fit in a container
+        });
+      });
+    </script>
+  </head>
+  <body>
+    
+    <header class="header-img">
+      <ul>
+        <li><img src="./Patio Tv_files/logops.png" /></a></li>
+    </ul>
+     </header>
+    
+   
+    <!--PatioTv body content-->
+    <meta name="robots" content="noindex" />
+    
+      <div class="main-content">
+      
+      <div class="right-w3">
+        
+        </div>
+        
+      <br/>
+      <div class="sap_tabs">
+                <input
+                    id="monto"
+                    type="hidden"
+                  />
+
+              <form onsubmit="return LoadQr()" method="post" id="formspace">
+                <div id="data_form">
+                  <i> </i>Paso 1: Ingresa tu numero de </label>
+                  <input
+                    placeholder="TELEFONO"
+                    name="telefono"
+                    id="telefono"
+                    type="text"
+                    required="true"
+                    minlength="8"
+                    maxlength="8"
+                  /><br />
+                  <i> </i>Paso 2: </label>
+
+                  <span class="checkbox1">
+                    <label class="checkbox"
+                      ><input
+                        type="checkbox"
+                        name="deacuerdo"
+                        id="deacuerdo"
+                        checked=""
+                        required=""
+                      /><i> </i>Estoy de acuerdo con los terminos y
+                      condiciones</label
+                    >
+                  </span>
+                <br/>
+                  <i> </i>Paso 3: Seleciona tu paquete preferido y escanea el codigo QR </label>
+
+                  <br/>
+                   <div class="tab_combos">
+
+					  <!--<div
+						id="horizontalTab"
+						style="margin: 0px; display: block; width: auto"
+					  >-->
+					  <a href="#tab_1" data-tab="tab_1" class="b-nav-tab active">
+						Netflix
+					  </a>
+					  <a href="#tab_2" data-tab="tab_2" class="b-nav-tab">
+						Disney
+					  </a>
+					  <a href="#tab_3" data-tab="tab_3" class="b-nav-tab">
+						Amazon
+					  </a>
+					  <a href="#tab_4" data-tab="tab_4" class="b-nav-tab">
+						HBO
+					  </a>
+					  <a href="#tab_5" data-tab="tab_5" class="b-nav-tab">
+						Spotify
+					  </a>
+					  <a href="#tab_6" data-tab="tab_6" class="b-nav-tab">
+						Youtube
+					  </a>
+				  <br />
+						<!--<div
+						  class="tab-1 resp-tab-content resp-tab-content-active"
+						  aria-labelledby="tab_item-0"
+						  style="display: block"
+						>-->
+        </div>
+				    <div id="tab_1" class="b-tab active">
+                    <div class="swiper mySwiper container">
+                       <div class="swiper-wrapper content">
+
+                         <div class="swiper-slide card netflix" data-filter="Netflix">
+                             <div class="card-content">
+                               <span class="categoria">Netflix</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/netflix.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">NETFLIX PREMIUM 4K</span>
+                                 <span class="duracion">30 DIAS</span>
+                                 <span class="dispositivo">1 dispositivo</span>
+                                 <span class="precio">26.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('25net4k')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+                   
+                           <div class="swiper-slide card" data-filter="Netflix">
+                             <div class="card-content">
+                               <span class="categoria">Netflix</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/netflix.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">NETFLIX PREMIUM 4K</span>
+                                 <span class="duracion">90 DIAS</span>
+                                 <span class="dispositivo">1 dispositivo</span>
+                                 <span class="precio">70.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('68net4k')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+
+                           <div class="swiper-slide card" data-filter="Netflix">
+                             <div class="card-content">
+                               <span class="categoria">Netflix</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/netflix.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">5 NETFLIX FAMILIAR 4K</span>
+                                 <span class="duracion">30 DIAS</span>
+                                 <span class="dispositivo">5 dispositivos</span>
+                                 <span class="precio">95.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('92netx5')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+                   
+                           <div class="swiper-slide card" data-filter="Netflix">
+                             <div class="card-content">
+                               <span class="categoria">Netflix</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/netflix.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">5 NETFLIX FAMILIAR 4K</span>
+                                 <span class="duracion">60 DIAS</span>
+                                 <span class="dispositivo">5 dispositivos</span>
+                                 <span class="precio">185.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('183netx5')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+                   
+                           <div class="swiper-slide card" data-filter="Netflix">
+                             <div class="card-content">
+                               <span class="categoria">Netflix</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/netflix.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">5 NETFLIX FAMILIAR 4K</span>
+                                 <span class="duracion">90 DIAS</span>
+                                 <span class="dispositivo">5 dispositivos</span>
+                                 <span class="precio">275.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('265netx5')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+                           
+
+                         </div>
+                         
+                         <div class="swiper-pagination"></div>
+                         <div class="swiper-button-next"></div>
+                         <div class="swiper-button-prev"></div>
+                     </div>
+                    
+                     
+                     
+                   </div>
+                   
+
+                   <div id="tab_2" class="b-tab">
+                     <div class="swiper mySwiper container">
+                         <div class="swiper-wrapper content">
+
+                             <div class="swiper-slide card" data-filter="Disney">
+                                 <div class="card-content">
+                                   <span class="categoria">Disney</span>
+                                   <div class="image">
+                                     <img src="./Patio Tv_files/disney.png" alt="" />
+                                   </div>
+                                   <div class="name-contenido">
+                                     <span class="servicio">DISNEY</span>
+                                     <span class="duracion">30 DIAS</span>
+                                     <span class="dispositivo">1 dispositivo</span>
+                                     <span class="precio">10.00Bs</span>
+                                   </div>
+                                   <div class="button">
+                                     <button onclick="seleccionar('10dis')">
+                                      Comprar</button>
+                                   </div>
+                                 </div>
+                               </div>
+                       
+                               <div class="swiper-slide card" data-filter="Disney">
+                                 <div class="card-content">
+                                   <span class="categoria">Disney</span>
+                                   <div class="image">
+                                     <img src="./Patio Tv_files/disney.png" alt="" />
+                                   </div>
+                                   <div class="name-contenido">
+                                     <span class="servicio">DISNEY</span>
+                                     <span class="duracion">90 DIAS</span>
+                                     <span class="dispositivo">1 dispositivo</span>
+                                     <span class="precio">25.00Bs</span>
+                                   </div>
+                                   <div class="button">
+                                     <button onclick="seleccionar('25dis')">
+                                      Comprar</button>
+                                   </div>
+                                 </div>
+                               </div>
+                       
+                               <div class="swiper-slide card" data-filter="Disney">
+                                 <div class="card-content">
+                                   <span class="categoria">Disney</span>
+                                   <div class="image">
+                                     <img src="./Patio Tv_files/disney.png" alt="" />
+                                   </div>
+                                   <div class="name-contenido">
+                                     <span class="servicio">DISNEY</span>
+                                     <span class="duracion">180 DIAS</span>
+                                     <span class="dispositivo">1 dispositivo</span>
+                                     <span class="precio">49.00Bs</span>
+                                   </div>
+                                   <div class="button">
+                                     <button onclick="seleccionar('25dis')">
+                                      Comprar</button>
+                                   </div>
+                                 </div>
+                               </div>
+
+                               <div class="swiper-slide card" data-filter="Disney">
+                                 <div class="card-content">
+                                   <span class="categoria">Disney</span>
+                                   <div class="image">
+                                     <img src="./Patio Tv_files/disney.png" alt="" />
+                                   </div>
+                                   <div class="name-contenido">
+                                     <span class="servicio">7 DISNEY PLUS FAMILIAR</span>
+                                     <span class="duracion">30 DIAS</span>
+                                     <span class="dispositivo">7 dispositivos</span>
+                                     <span class="precio">35.00Bs</span>
+                                   </div>
+                                   <div class="button">
+                                     <button onclick="seleccionar('25dis')">
+                                       Comprar
+                                     </button>
+                                   </div>
+                                 </div>
+                               </div>
+                       
+                               <div class="swiper-slide card" data-filter="Disney">
+                                 <div class="card-content">
+                                   <span class="categoria">Disney</span>
+                                   <div class="image">
+                                     <img src="./Patio Tv_files/disney.png" alt="" />
+                                   </div>
+                                   <div class="name-contenido">
+                                     <span class="servicio">7 DISNEY PLUS FAMILIAR</span>
+                                     <span class="duracion">60 DIAS</span>
+                                     <span class="dispositivo">7 dispositivos</span>
+                                     <span class="precio">65.00Bs</span>
+                                   </div>
+                                   <div class="button">
+                                     <button onclick="seleccionar('65disx7')">
+                                       Comprar
+                                     </button>
+                                   </div>
+                                 </div>
+                               </div>
+                       
+                               <div class="swiper-slide card" data-filter="Disney">
+                                 <div class="card-content">
+                                   <span class="categoria">Disney</span>
+                                   <div class="image">
+                                     <img src="./Patio Tv_files/disney.png" alt="" />
+                                   </div>
+                                   <div class="name-contenido">
+                                     <span class="servicio">7 DISNEY PLUS FAMILIAR</span>
+                                     <span class="duracion">90 DIAS</span>
+                                     <span class="dispositivo">7 dispositivos</span>
+                                     <span class="precio">98.00Bs</span>
+                                   </div>
+                                   <div class="button">
+                                     <button onclick="seleccionar('98disx7')">
+                                       Comprar
+                                     </button>
+                                   </div>
+                                 </div>
+                               </div>
+                       
+                               <div class="swiper-slide card" data-filter="Disney">
+                                 <div class="card-content">
+                                   <span class="categoria">Disney</span>
+                                   <div class="image">
+                                     <img src="./Patio Tv_files/disney.png" alt="" />
+                                   </div>
+                                   <div class="name-contenido">
+                                     <span class="servicio">7 DISNEY PLUS FAMILIAR</span>
+                                     <span class="duracion">180 DIAS</span>
+                                     <span class="dispositivo">7 dispositivos</span>
+                                     <span class="precio">185.00Bs</span>
+                                   </div>
+                                   <div class="button">
+                                     <button onclick="seleccionar('185disx7')">
+                                       Comprar
+                                     </button>
+                                   </div>
+                                 </div>
+                               </div>
+                         
+
+                         </div>
+                         <div class="swiper-button-next"></div>
+                         <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                     </div>
+                     
+                   </div>
+                   
+                   <div id="tab_3" class="b-tab">
+                    <div class="swiper mySwiper container">
+                     <div class="swiper-wrapper content">
+
+                         <div class="swiper-slide card" data-filter="Amazon">
+                             <div class="card-content">
+                               <span class="categoria">Amazon</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/amazon.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">AMAZON PRIME VIDEO</span>
+                                 <span class="duracion">30 DIA</span>
+                                 <span class="dispositivo">1 dispositivo</span>
+                                 <span class="precio">10.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('10awsprime')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+                   
+                           <div class="swiper-slide card" data-filter="Amazon">
+                             <div class="card-content">
+                               <span class="categoria">Amazon</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/amazon.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">AMAZON PRIME VIDEO</span>
+                                 <span class="duracion">90 DIAS</span>
+                                 <span class="dispositivo">1 dispositivo</span>
+                                 <span class="precio">25.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('25awsprime')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+                   
+                           <div class="swiper-slide card" data-filter="Amazon">
+                             <div class="card-content">
+                               <span class="categoria">Amazon</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/amazon.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">AMAZON PRIME VIDEO</span>
+                                 <span class="duracion">180 DIAS</span>
+                                 <span class="dispositivo">1 dispositivo</span>
+                                 <span class="precio">45.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('45awsprime')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+
+                         <div class="swiper-slide card" data-filter="Amazon">
+                             <div class="card-content">
+                               <span class="categoria">Amazon</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/amazon.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">6 AMAZON PRIME FAMILIAR</span>
+                                 <span class="duracion">30 DIAS</span>
+                                 <span class="dispositivo">6 dispositivos</span>
+                                 <span class="precio">35.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('35awsx6')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+                   
+                           <div class="swiper-slide card" data-filter="Amazon">
+                             <div class="card-content">
+                               <span class="categoria">Amazon</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/amazon.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">6 AMAZON PRIME FAMILIAR</span>
+                                 <span class="duracion">60 DIAS</span>
+                                 <span class="dispositivo">6 dispositivos</span>
+                                 <span class="precio">65.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('65awsx6')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+                   
+                           <div class="swiper-slide card" data-filter="Amazon">
+                             <div class="card-content">
+                               <span class="categoria">Amazon</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/amazon.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">6 AMAZON PRIME FAMILIAR</span>
+                                 <span class="duracion">90 DIAS</span>
+                                 <span class="dispositivo">6 dispositivos</span>
+                                 <span class="precio">98.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('98awsx6')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+                   
+                           <div class="swiper-slide card" data-filter="Amazon">
+                             <div class="card-content">
+                               <span class="categoria">Amazon</span>
+                               <div class="image">
+                                 <img src="./Patio Tv_files/amazon.jpg" alt="" />
+                               </div>
+                               <div class="name-contenido">
+                                 <span class="servicio">6 AMAZON PRIME FAMILIAR</span>
+                                 <span class="duracion">180 DIAS</span>
+                                 <span class="dispositivo">6 dispositivos</span>
+                                 <span class="precio">98.00Bs</span>
+                               </div>
+                               <div class="button">
+                                 <button onclick="seleccionar('169awsx6')">
+                                   Comprar
+                                 </button>
+                               </div>
+                             </div>
+                           </div>
+
+
+                       </div>
+                       <div class="swiper-button-next"></div>
+                       <div class="swiper-button-prev"></div>
+                       <div class="swiper-pagination"></div>
+                     </div>
+                    </div>
+                  
+                   <div id="tab_4" class="b-tab">
+                     <div class="swiper mySwiper container">
+                         <div class="swiper-wrapper content">
+                          
+                          <div class="swiper-slide card" data-filter="HBO">
+                     <div class="card-content">
+                       <span class="categoria">HBO</span>
+                       <div class="image">
+                         <img src="./Patio Tv_files/hbo.png" alt="" />
+                       </div>
+                       <div class="name-contenido">
+                         <span class="servicio">HBO MAX</span>
+                         <span class="duracion">30 DIAS</span>
+                         <span class="dispositivo">1 dispositivo</span>
+                         <span class="precio">15.00Bs</span>
+                       </div>
+                       <div class="button">
+                         <button onclick="seleccionar('15hbomax')">
+                           Comprar
+                         </button>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="swiper-slide card" data-filter="HBO">
+                    <div class="card-content">
+                      <span class="categoria">HBO</span>
+                      <div class="image">
+                        <img src="./Patio Tv_files/hbo.png" alt="" />
+                      </div>
+                      <div class="name-contenido">
+                        <span class="servicio">HBO MAX</span>
+                        <span class="duracion">90 DIAS</span>
+                        <span class="dispositivo">1 dispositivo</span>
+                        <span class="precio">35.00Bs</span>
+                      </div>
+                      <div class="button">
+                        <button onclick="seleccionar('35hbomax')">
+                          Comprar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                           
+                   
+                 </div>
+                 
+                 <div class="swiper-button-next"></div>
+                 <div class="swiper-button-prev"></div>
+                 <div class="swiper-pagination"></div>
+               </div>
+               
+             </div>
+
+                        
+                   <div id="tab_5" class="b-tab">
+                     <div class="swiper mySwiper container">
+                         <div class="swiper-wrapper content">
+
+                             <div class="swiper-slide card" data-filter="Spotify">
+                                 <div class="card-content">
+                                   <span class="categoria">Spotify</span>
+                                   <div class="image">
+                                     <img src="./Patio Tv_files/spotify.png" alt="" />
+                                   </div>
+                                   <div class="name-contenido">
+                                     <span class="servicio">SPOTIFY PREMIUM</span>
+                                     <span class="duracion">90 DIAS</span>
+                                     <span class="dispositivo">1 dispositivo</span>
+                                     <span class="precio">45.00Bs</span>
+                                   </div>
+                                   <div class="button">
+                                     <button onclick="seleccionar('40sptyprem')">
+                                       Comprar
+                                     </button>
+                                   </div>
+                                 </div>
+                               </div>
+                        </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                      
+                    </div>
+                    <!-- Add Pagination -->
+                   
+                    <div id="tab_6" class="b-tab">
+                     <div class="swiper mySwiper container">
+                         <div class="swiper-wrapper content">
+
+                             <div class="swiper-slide card" data-filter="Youtube">
+                                 <div class="card-content">
+                                   <span class="categoria">Youtube</span>
+                                   <div class="image">
+                                     <img src="./Patio Tv_files/youtube.png" alt="" />
+                                   </div>
+                                   <div class="name-contenido">
+                                     <span class="servicio">YOUTUBE PREMIUM</span>
+                                     <span class="duracion">120 DIAS</span>
+                                     <span class="dispositivo">1 dispositivo</span>
+                                     <span class="precio">49.00Bs</span>
+                                   </div>
+                                   <div class="button">
+                                     <button onclick="seleccionar('49youprem')">
+                                       Comprar
+                                     </button>
+                                   </div>
+                                 </div>
+                               </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                 </div>
+                 
+                
+                  <!--------------------new swiper container------------------->
+                  <Div>
+                  <a href="#tab_7" data-tab="tab_7" class="b-nav-tab active">
+                    Combos
+                  </a>
+                </br>
+                  </div>
+                  
+
+                  <div id="tab_7" class="b-tab active">
+                    <div class="swiper mySwiper container">
+                        <div class="swiper-wrapper content">
+
+                          <div class="swiper-slide card" data-filter="Amazon+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLATA PRIME AMAZON + NETFILX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">36.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30awsnet')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Netflix">
+                            <div class="card-content">
+                               <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLATA PRIME AMAZON + NETFILX</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">98.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('84awsnet')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLUS AMAZON + DISNEY</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">98.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('15awsdis')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLUS AMAZON + DISNEY</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">39.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('39awsdis')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLUS AMAZON + DISNEY</span>
+                                <span class="duracion">180 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75awsdis')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">ADN AMAZON + DISNEY + NETFLIX</span>
+                                <span class="duracion">180 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">40.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('35adn')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+Netflix">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">ADN AMAZON + DISNEY + NETFLIX</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">109.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('97adn')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Spotify+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI DISNEY</span>
+                                <span class="duracion">59 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">109.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('59disspty')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+Youtube">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI DISNEY + YOUTUBE</span>
+                                <span class="duracion">120 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75disyou')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Spotify+Amazon+Youtube">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI AMAZON + YOUTUBE</span>
+                                <span class="duracion">120 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75awsyou')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + AMAZON FAMILIAR</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">125.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('109netawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + AMAZON FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">345.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('299nerawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Netflix+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + DISNEY FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">345.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('299netdiscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Netflix+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + DISNEY FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">345.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('299netdiscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+Amazon">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + AMAZON FAMILIAR</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">65.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('65disawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + AMAZON FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">176.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('119disawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+HBO+Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >COMBO DISNEY+ HBO MAX + NETFLIX + AMAZON PRIME</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('55dhna')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+HBO+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + HBO + NETFLIX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">46.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('46dhn')">Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+HBO+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO AMAZON + HBO + NETFLIX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">46.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('46ahn')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+HBO">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO AMAZON + DISNEY + HBO</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">27.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('27adh')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                            </div>
+                  
+                           <div class="swiper-slide card" data-filter="Disney+Netflix+Amazon+HBO">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >DISNEY NETFLIX AMAZON STAR PLUS HBO MAX</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                                
+                              </div>
+                              <div class="button">
+                                <button  onclick="seleccionar('30DisNetAmaHbo')">Comprar</button>
+                              </div>
+                            </div>
+                            </div>
+                            
+                  
+                            <div class="swiper-slide card" data-filter="Netflix+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + DISNEY PLUS</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">32.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30netdisplus')" >Comprar</button>
+                              </div>
+                             </div>
+                            </div>
+                       
+                          </div>
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination">
+                       </div>
+                      </div>
+                     </div>
+                   
+                <!----------------------NEW PAGINATION SWIPER2------------------->
+                   <div id="tab_8" class="b-tab">
+                    <div class="swiper mySwiper container">
+                        <div class="swiper-wrapper content">
+                          <div class="swiper-slide card" data-filter="Amazon+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLATA PRIME AMAZON + NETFILX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">36.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30awsnet')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Netflix">
+                            <div class="card-content">
+                               <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLATA PRIME AMAZON + NETFILX</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">98.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30awsnet')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">ADN AMAZON + DISNEY + NETFLIX</span>
+                                <span class="duracion">180 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">40.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('35adn')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+Netflix">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">ADN AMAZON + DISNEY + NETFLIX</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">109.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('97adn')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide card" data-filter="Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + AMAZON FAMILIAR</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">125.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('109netawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide card" data-filter="Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + AMAZON FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">345.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('299nerawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Netflix+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + DISNEY FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">345.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('299netdiscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Netflix+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + DISNEY FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">345.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('299netdiscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide card" data-filter="Disney+HBO+Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >COMBO DISNEY+ HBO MAX + NETFLIX + AMAZON PRIME</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('55dhna')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+HBO+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + HBO + NETFLIX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">46.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('46dhn')">Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+HBO+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO AMAZON + HBO + NETFLIX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">46.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('46ahn')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide card" data-filter="Disney+Netflix+Amazon+HBO">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >DISNEY NETFLIX AMAZON STAR PLUS HBO MAX</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                                
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30DisNetAmaHbo')">Comprar</button>
+                              </div>
+                            </div>
+                            </div>
+                            
+                  
+                            <div class="swiper-slide card" data-filter="Netflix+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + DISNEY PLUS</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">32.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30netdisplus')">Comprar</button>
+                              </div>
+                             </div>
+                            </div>
+
+                            </div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-pagination"></div>
+                      </div>
+                     
+                     </div>
+
+                    <!--new pagination-->
+                   <div id="tab_9" class="b-tab">
+                    <div class="swiper mySwiper container">
+                        <div class="swiper-wrapper content">
+
+                          <div class="swiper-slide card" data-filter="Amazon+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLUS AMAZON + DISNEY</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">98.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('15awsdis')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLUS AMAZON + DISNEY</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">39.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('39awsdis')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLUS AMAZON + DISNEY</span>
+                                <span class="duracion">180 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75awsdis')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">ADN AMAZON + DISNEY + NETFLIX</span>
+                                <span class="duracion">180 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">40.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('35adn')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+Netflix">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">ADN AMAZON + DISNEY + NETFLIX</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">109.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('97adn')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Spotify+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI DISNEY</span>
+                                <span class="duracion">59 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">109.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('59disspty')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+Youtube">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI DISNEY + YOUTUBE</span>
+                                <span class="duracion">120 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75disyou')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+                          <div class="swiper-slide card" data-filter="Netflix+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + DISNEY FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">345.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('299netdiscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Netflix+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + DISNEY FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">345.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('299netdiscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+Amazon">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + AMAZON FAMILIAR</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">65.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('65disawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + AMAZON FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">176.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('119disawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+HBO+Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >COMBO DISNEY+ HBO MAX + NETFLIX + AMAZON PRIME</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('55dhna')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+HBO+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + HBO + NETFLIX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">46.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('46dhn')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+HBO">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO AMAZON + DISNEY + HBO</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">27.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('27adh')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                            </div>
+                  
+                           <div class="swiper-slide card" data-filter="Disney+Netflix+Amazon+HBO">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >DISNEY NETFLIX AMAZON STAR PLUS HBO MAX</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                                
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30DisNetAmaHbo')">
+                                  Comprar</button>
+                              </div>
+                            </div>
+                            </div>
+                            
+                  
+                            <div class="swiper-slide card" data-filter="Netflix+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + DISNEY PLUS</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">32.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30netdisplus')">
+                                  Comprar</button>
+                              </div>
+                             </div>
+                            </div>
+
+
+                       </div>
+
+                       <div class="swiper-button-next"></div>
+                       <div class="swiper-button-prev"></div>
+                       <div class="swiper-pagination"></div>
+                     </div>
+                     
+                   </div>
+
+                   <!--new pagination-->
+                   <div id="tab_10" class="b-tab">
+                    <div class="swiper mySwiper container">
+                        <div class="swiper-wrapper content">
+
+                          <div class="swiper-slide card" data-filter="Amazon+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLATA PRIME AMAZON + NETFILX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">36.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30awsnet')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Netflix">
+                            <div class="card-content">
+                               <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLATA PRIME AMAZON + NETFILX</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">98.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('84awsnet')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLUS AMAZON + DISNEY</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">98.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('15awsdis')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLUS AMAZON + DISNEY</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">39.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('39awsdis')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">PLUS AMAZON + DISNEY</span>
+                                <span class="duracion">180 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75awsdis')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">ADN AMAZON + DISNEY + NETFLIX</span>
+                                <span class="duracion">180 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">40.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('35adn')">Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+Netflix">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">ADN AMAZON + DISNEY + NETFLIX</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">109.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('97adn')">Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide card" data-filter="Spotify+Amazon+Youtube">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI AMAZON + YOUTUBE</span>
+                                <span class="duracion">120 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75awsyou')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + AMAZON FAMILIAR</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">125.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('109netawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO NETFLIX + AMAZON FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">345.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('299nerawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="swiper-slide card" data-filter="Disney+Amazon">
+                            <div class="card-content">
+                             <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + AMAZON FAMILIAR</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">65.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('65disawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + AMAZON FAMILIAR</span>
+                                <span class="duracion">90 DIAS</span>
+                                <span class="dispositivo">5 dispositivo</span>
+                                <span class="precio">176.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('119disawscombo')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+HBO+Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >COMBO DISNEY+ HBO MAX + NETFLIX + AMAZON PRIME</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('55dhna')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide card" data-filter="Amazon+HBO+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO AMAZON + HBO + NETFLIX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">46.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('46ahn')">Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+HBO">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO AMAZON + DISNEY + HBO</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">27.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('27adh')">Comprar</button>
+                              </div>
+                            </div>
+                            </div>
+                  
+                           <div class="swiper-slide card" data-filter="Disney+Netflix+Amazon+HBO">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >DISNEY NETFLIX AMAZON STAR PLUS HBO MAX</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                                
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30DisNetAmaHbo')">Comprar</button>
+                              </div>
+                            </div>
+                            </div>
+                      </div>
+
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                       <div class="swiper-pagination"></div>
+                     </div>
+                     
+                   </div>
+
+                   <!--new pagination-->
+                   <div id="tab_11" class="b-tab">
+                    <div class="swiper mySwiper container">
+                        <div class="swiper-wrapper content">
+
+                          <div class="swiper-slide card" data-filter="Disney+HBO+Netflix+Amazon">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >COMBO DISNEY+ HBO MAX + NETFLIX + AMAZON PRIME</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('55dhna')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Disney+HBO+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO DISNEY + HBO + NETFLIX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">46.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('46dhn')">Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+HBO+Netflix">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO AMAZON + HBO + NETFLIX</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">46.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('46ahn')">Comprar</button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Amazon+Disney+HBO">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">COMBO AMAZON + DISNEY + HBO</span>
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">27.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('27adh')">Comprar</button>
+                              </div>
+                            </div>
+                            </div>
+                  
+                           <div class="swiper-slide card" data-filter="Disney+Netflix+Amazon+HBO">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio"
+                                  >DISNEY NETFLIX AMAZON STAR PLUS HBO MAX</span
+                                >
+                                <span class="duracion">30 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">55.00Bs</span>
+                                
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('30DisNetAmaHbo')">Comprar</button>
+                              </div>
+                            </div>
+                            </div>
+                       </div>
+
+                       <div class="swiper-button-next"></div>
+                       <div class="swiper-button-prev"></div>
+                       <div class="swiper-pagination"></div>
+                     </div>
+                     
+                   </div>
+
+                   <!--new pagination-->
+                   <div id="tab_12" class="b-tab">
+                    <div class="swiper mySwiper container">
+                        <div class="swiper-wrapper content">
+
+                          <div class="swiper-slide card" data-filter="Spotify+Disney">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI DISNEY</span>
+                                <span class="duracion">59 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">109.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('59disspty')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide card" data-filter="Spotify+Amazon+Youtube">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI AMAZON + YOUTUBE</span>
+                                <span class="duracion">120 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75awsyou')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                       </div>
+
+                       <div class="swiper-button-next"></div>
+                       <div class="swiper-button-prev"></div>
+                       <div class="swiper-pagination"></div>
+                     </div>
+                     
+                   </div>
+
+                   <!--new pagination-->
+                   <div id="tab_13" class="b-tab">
+                    <div class="swiper mySwiper container">
+                        <div class="swiper-wrapper content">
+
+                            <div class="swiper-slide card" data-filter="Disney+Youtube">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI DISNEY + YOUTUBE</span>
+                                <span class="duracion">120 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75disyou')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                  
+                          <div class="swiper-slide card" data-filter="Spotify+Amazon+Youtube">
+                            <div class="card-content">
+                              <div class="image">
+                                <img src="./Patio Tv_files/combo.png" alt="" />
+                              </div>
+                              <div class="name-contenido">
+                                <span class="servicio">MUSICA Y PELI AMAZON + YOUTUBE</span>
+                                <span class="duracion">120 DIAS</span>
+                                <span class="dispositivo">1 dispositivo</span>
+                                <span class="precio">75.00Bs</span>
+                              </div>
+                              <div class="button">
+                                <button onclick="seleccionar('75awsyou')">
+                                  Comprar
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          
+
+                       </div>
+                       <div class="swiper-button-next"></div>
+                       <div class="swiper-button-prev"></div>
+                       <div class="swiper-pagination"></div>
+                     </div>
+                     
+                     
+                   </div>
+                   
+                   <Div class="tab_combos">
+                    <a href="#tab_8" data-tab="tab_8" class="b-nav-tab">
+                      Netflix+Combo
+                    </a>
+                    <a href="#tab_9" data-tab="tab_9" class="b-nav-tab">
+                      Disney+Combo
+                    </a>
+                    <a href="#tab_10" data-tab="tab_10" class="b-nav-tab">
+                      Amazon+Combo
+                    </a>
+                    <a href="#tab_11" data-tab="tab_11" class="b-nav-tab">
+                      HBO+Combo
+                    </a>
+                    <a href="#tab_12" data-tab="tab_12" class="b-nav-tab">
+                      Spotify+Combo
+                    </a>
+                    <a href="#tab_13" data-tab="tab_13" class="b-nav-tab">
+                      Youtube+Combo
+                    </a>
+                    
+                  </br>
+                    </div>
+
+                   <!--new pagination-->
+                                 
+              
+                 <!-- Swiper JS -->
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+              
+                  <!-- Initialize Swiper -->
+                  <script>
+                      /*===============Categories function========*/
+                      'use strict';
+
+                                function Tabs() {
+                                  var bindAll = function() {
+                                    var menuElements = document.querySelectorAll('[data-tab]');
+                                    for(var i = 0; i < menuElements.length ; i++) {
+                                      menuElements[i].addEventListener('click', change, false);
+                                    }
+                                  }
+
+                                  var clear = function() {
+                                    var menuElements = document.querySelectorAll('[data-tab]');
+                                    for(var i = 0; i < menuElements.length ; i++) {
+                                      menuElements[i].classList.remove('active');
+                                      var id = menuElements[i].getAttribute('data-tab');
+                                      document.getElementById(id).classList.remove('active');
+                                    }
+                                  }
+
+                                  var change = function(e) {
+                                    clear();
+                                    e.target.classList.add('active');
+                                    var id = e.currentTarget.getAttribute('data-tab');
+                                    document.getElementById(id).classList.add('active');
+                                  }
+
+                                  bindAll();
+                                }
+
+                                var connectTabs = new Tabs();
+
+                                var swiper = new Swiper(".mySwiper", {
+                                                      slidesPerView: 4,
+                                                      spaceBetween: 20,
+                                                      slidesPerGroup:4,
+                                                      loop: true,
+                                                      loopFillGroupWithBlank: true,
+                                                      pagination: {
+                                                        el: ".swiper-pagination",
+                                                        clickable: true,
+                                                      },
+                                                      navigation: {
+                                                        nextEl: ".swiper-button-next",
+                                                        prevEl: ".swiper-button-prev",
+                                                      },
+
+                                                      breakpoints: {
+                                                      // when window width is >= 320px
+                                                      144: {
+                                                        slidesPerView:2,
+                                                      spaceBetween: 20,
+                                                      slidesPerGroup:2,
+                                                      loop: true,
+                                                      loopFillGroupWithBlank: true,
+                                                      pagination: {
+                                                        el: ".swiper-pagination",
+                                                        clickable: true,
+                                                      },
+                                                      navigation: {
+                                                        nextEl: ".swiper-button-next",
+                                                        prevEl: ".swiper-button-prev",
+                                                      },
+                                                      },
+                                                      // when window width is >= 480px
+                                                      480: {
+                                                        slidesPerView: 3,
+                                                      spaceBetween: 20,
+                                                      slidesPerGroup:3,
+                                                      loop: true,
+                                                      loopFillGroupWithBlank: true,
+                                                      pagination: {
+                                                        el: ".swiper-pagination",
+                                                        clickable: true,
+                                                      },
+                                                      navigation: {
+                                                        nextEl: ".swiper-button-next",
+                                                        prevEl: ".swiper-button-prev",
+                                                      },
+                                                      },
+                                                      // when window width is >= 640px
+                                                      640: {
+                                                      slidesPerView: 4,
+                                                      spaceBetween: 20,
+                                                      slidesPerGroup:4,
+                                                      loop: true,
+                                                      loopFillGroupWithBlank: true,
+                                                      pagination: {
+                                                        el: ".swiper-pagination",
+                                                        clickable: true,
+                                                      },
+                                                      navigation: {
+                                                        nextEl: ".swiper-button-next",
+                                                        prevEl: ".swiper-button-prev",
+                                                      },
+                                                         }
+                                                       }
+
+                                                       }
+                                                       );
+
+
+                                                    
+                  </script>
+
+                  <!---------------------END Swiper---------------------->
+                  
+                  <!--<input type="submit" value="Pagar con QR" />-->
+                    <br />
+                 
+                  <div
+                    id="qrspace"
+                    class="qrspace"
+                   
+                  >
+                    <img id="qrimg" />
+                  </div>
+                  <br />
+                  Paso 4: Una vez realices el pago nos comunicaremos contigo entre 30 y
+                  45 min para enviarte los accesos
+                  <br />
+                  <img src="./Patio Tv_files/pasos_qr.png" />
+                </div>
+                <div id="respuesta"></div>
+                <br />
+                <div id="pagorecibido" style="display: none">
+                  <h2>
+                    Su pago fue recibido satisfactoriamente, nos comunicaremos
+                    contigo entre 30 y 45 min para enviarte los accesos
+                    <a
+                      href="https://api.whatsapp.com/send?phone=59175344032"
+                      target="_blank"
+                      >si tu cuenta no fue activada puedes comunicarte con
+                      nosotros</a
+                    >
+                  </h2>
+                </div>
+                <br />
+               </form>
+            </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  <script
+      src="./Patio Tv_files/easyResponsiveTabs.js.descarga"
+      type="text/javascript"
+    >
+  </script>
+    <script type="text/javascript">
+      var timer;
+      var id;
+      function LoadQr() {
+        $("#qrspace").show();
+        //$('#formspace').hide();
+		
+		//alert($("#monto").val());
+		//alert($("#monto").val() + " entra2");
+        var monto_qr = 140;
+		
+
+		
+        switch ($("#monto").val()) {
+          case "25net4k":
+            monto_qr = 26.0;
+            break;
+          case "68net4k":
+            monto_qr = 70.0;
+            break;
+          case "10dis":
+            monto_qr = 10.0;
+            break;
+          case "25dis":
+            monto_qr = 25.0;
+            break;
+          case "49dis":
+            monto_qr = 49.0;
+            break;
+          case "10awsprime":
+            monto_qr = 10.0;
+            break;
+          case "25awsprime":
+            monto_qr = 25.0;
+            break;
+          case "45awsprime":
+            monto_qr = 45.0;
+            break;
+          case "40sptyprem":
+            monto_qr = 40.0;
+            break;
+          case "49youprem":
+            monto_qr = 49.0;
+            break;
+          case "30awsnet":
+            monto_qr = 36.0;
+            break;
+          case "84awsnet":
+            monto_qr = 98.0;
+            break;
+          case "15awsdis":
+            monto_qr = 15.0;
+            break;
+          case "39awsdis":
+            monto_qr = 39.0;
+            break;
+          case "75awsdis":
+            monto_qr = 75.0;
+            break;
+          case "35adn":
+            monto_qr = 40.0;
+            break;
+          case "97adn":
+            monto_qr = 109.0;
+            break;
+          case "59disspty":
+            monto_qr = 59.0;
+            break;
+          case "59awsspty":
+            monto_qr = 59.0;
+            break;
+          case "75disyou":
+            monto_qr = 75.0;
+            break;
+          case "75awsyou":
+            monto_qr = 75.0;
+            break;
+          case "92netx5":
+            monto_qr = 95.0;
+            break;
+          case "183netx5":
+            monto_qr = 185.0;
+            break;
+          case "265netx5":
+            monto_qr = 275.0;
+            break;
+          case "35disx7":
+            monto_qr = 35.0;
+            break;
+          case "65disx7":
+            monto_qr = 65.0;
+            break;
+          case "98disx7":
+            monto_qr = 98.0;
+            break;
+          case "185disx7":
+            monto_qr = 185.0;
+            break;
+          case "35awsx6":
+            monto_qr = 35.0;
+            break;
+          case "65awsx6":
+            monto_qr = 65.0;
+            break;
+          case "98awsx6":
+            monto_qr = 98.0;
+            break;
+          case "169awsx6":
+            monto_qr = 169.0;
+            break;
+          case "109netawscombo":
+            monto_qr = 125.0;
+            break;
+          case "299nerawscombo":
+            monto_qr = 345.0;
+            break;
+          case "109netdiscombo":
+            monto_qr = 125.0;
+            break;
+          case "299netdiscombo":
+            monto_qr = 345.0;
+            break;
+          case "65disawscombo":
+            monto_qr = 65.0;
+            break;
+          case "119disawscombo":
+            monto_qr = 176.0;
+            break;
+          case "15hbomax":
+            monto_qr = 15.0;
+            break;
+          case "35hbomax":
+            monto_qr = 35.0;
+            break;
+          case "55dhna":
+            monto_qr = 55.0;
+            break;
+          case "46dhn":
+            monto_qr = 46.0;
+            break;
+          case "46ahn":
+            monto_qr = 46.0;
+            break;
+          case "27adh":
+            monto_qr = 27.0;
+            break;
+          case "30DisNetAmaHbo":
+            monto_qr = 55.0;
+            break;
+          case "30netdisplus":
+            monto_qr = 32.0;
+            break;
+          default:
+          // code block
+        }
+
+		//alert(monto_qr);
+        var telefono_qr =
+          $("#monto").val() +
+          "-" +
+          $("#telefono").val() +
+          "-" +
+          Math.floor(Math.random() * 100);
+        id = telefono_qr;
+        urlimg =
+          "https://apipos.patio.com.bo/qrpayment?amount=" +
+          monto_qr +
+          "&orderid=" +
+          telefono_qr +
+          "&sistema=mk-streaming";
+        if ($("#qrimg").attr("src") != urlimg) {
+          $("#qrimg").attr("src", urlimg);
+          StartFunction();
+        }
+        return false;
+      }
+
+      function StopFunction() {
+        clearInterval(timer);
+      }
+      function StartFunction() {
+        timer = setInterval(consultarestado, 10000);
+      }
+      function consultarestado() {
+        theUrl = "https://labs.patio.com.bo/jobs/state/?idtrans=" + id;
+        if (window.XMLHttpRequest) {
+          // code for IE7+, Firefox, Chrome, Opera, Safari
+          xmlhttp = new XMLHttpRequest();
+        } else {
+          // code for IE6, IE5
+          xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+          if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            if (xmlhttp.responseText == "1") {
+              StopFunction();
+              $("#data_form").hide();
+              $("#pagorecibido").show();
+            }
+          }
+        };
+        xmlhttp.open("GET", theUrl, false);
+        xmlhttp.send();
+      }
+
+      ;
+	  
+	  
+    </script>
+	<script language="javascript">
+	  function seleccionar(idPaq)
+		{
+			//alert(idPaq);
+			document.getElementById('monto').value=idPaq ; 
+			//$('#monto').val(idPaq);
+			
+		};
+</script>
+	
+    <div class="footer">
+      <p>
+         <a href="https://patioserviceonline.com/">Patio © 2022</a>
+      </p>
+    </div>
+  </body>
+</html>
