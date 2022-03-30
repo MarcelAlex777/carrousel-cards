@@ -519,6 +519,7 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
 .card {
   position: relative;
   background: #f3fefd;
@@ -666,6 +667,32 @@ section .card .image img {
   display: block;
   height: auto;
 }
+.b-nav-tab.active {
+  color: #ff7d08;
+  padding: 10px 10px 10px 10px;
+}
+
+.c-tab {
+  border: 2px solid #ff7b082b;
+  border-radius: 15px;
+  display: none;
+  background: #ffffff00;
+  max-width: 100%;
+  max-height: 1000px;
+
+  margin: auto;
+  width: 95%;
+  overflow: visible;
+}
+
+.c-tab.active {
+  display: block;
+  height: auto;
+}
+.c-nav-tab.active {
+  color: #ff7d08;
+  padding: 10px 10px 10px 10px;
+}
 
 .b-nav-tab {
   display: center;
@@ -673,10 +700,7 @@ section .card .image img {
   color: #00aea7;
 }
 
-.b-nav-tab.active {
-  color: #ff7d08;
-  padding: 10px 10px 10px 10px;
-}
+
 .tab_combos {
   margin-top: 20px;
   margin-bottom: 20px;
