@@ -113,22 +113,22 @@
 						id="horizontalTab"
 						style="margin: 0px; display: block; width: auto"
 					  >-->
-					  <a href="#tab_netflix_1" data-tab="tab_netflix_1" class="b-nav-tab active">
+					  <a href="#tab_netflix_1" data-tab="tab_netflix_1" class="b-nav-tab active" onclick="removeEvent(event);">
 						Netflix
 					  </a>
-					  <a href="#tab_disney_2" data-tab="tab_disney_2" class="b-nav-tab">
+					  <a href="#tab_disney_2" data-tab="tab_disney_2" class="b-nav-tab" onclick="removeEvent(event);">
 						Disney
 					  </a>
-					  <a href="#tab_amazon_3" data-tab="tab_amazon_3" class="b-nav-tab">
+					  <a href="#tab_amazon_3" data-tab="tab_amazon_3" class="b-nav-tab" onclick="removeEvent(event);">
 						Amazon
 					  </a>
-					  <a href="#tab_hbo_4" data-tab="tab_hbo_4" class="b-nav-tab">
+					  <a href="#tab_hbo_4" data-tab="tab_hbo_4" class="b-nav-tab" onclick="removeEvent(event);">
 						HBO
 					  </a>
-					  <a href="#tab_spotify_5" data-tab="tab_spotify_5" class="b-nav-tab">
+					  <a href="#tab_spotify_5" data-tab="tab_spotify_5" class="b-nav-tab" onclick="removeEvent(event);">
 						Spotify
 					  </a>
-					  <a href="#tab_youtube_6" data-tab="tab_youtube_6" class="b-nav-tab">
+					  <a href="#tab_youtube_6" data-tab="tab_youtube_6" class="b-nav-tab" onclick="removeEvent(event);">
 						Youtube
 					  </a>
 				  <br />
@@ -2209,22 +2209,22 @@
                    </div>
                    
                    <Div class="tab_combos">
-                    <a href="#tab_netflix_8" data-tab="tab_netflix_8" class="b-nav-tab">
+                    <a href="#tab_netflix_8" data-tab="tab_netflix_8" class="b-nav-tab" onclick="removeEvent(event);">
                       Netflix+Combo
                     </a>
-                    <a href="#tab_disney_9" data-tab="tab_disney_9" class="b-nav-tab">
+                    <a href="#tab_disney_9" data-tab="tab_disney_9" class="b-nav-tab" onclick="removeEvent(event);">
                       Disney+Combo
                     </a>
-                    <a href="#tab_amazon_10" data-tab="tab_amazon_10" class="b-nav-tab">
+                    <a href="#tab_amazon_10" data-tab="tab_amazon_10" class="b-nav-tab" onclick="removeEvent(event);">
                       Amazon+Combo
                     </a>
-                    <a href="#tab_hbo_11" data-tab="tab_hbo_11" class="b-nav-tab">
+                    <a href="#tab_hbo_11" data-tab="tab_hbo_11" class="b-nav-tab" onclick="removeEvent(event);">
                       HBO+Combo
                     </a>
-                    <a href="#tab_spotify_12" data-tab="tab_spotify_12" class="b-nav-tab">
+                    <a href="#tab_spotify_12" data-tab="tab_spotify_12" class="b-nav-tab" onclick="removeEvent(event);">
                       Spotify+Combo
                     </a>
-                    <a href="#tab_youtube_13" data-tab="tab_youtube_13" class="b-nav-tab">
+                    <a href="#tab_youtube_13" data-tab="tab_youtube_13" class="b-nav-tab" onclick="removeEvent(event);">
                       Youtube+Combo
                     </a>
                     
@@ -2353,9 +2353,10 @@
 
                                                        }
                                                        );
-
-
-                                                    
+                                                       
+                                                       function removeEvent(evt) {
+                                                         evt.preventDefault();}
+                                                       
                   </script>
 
                   <!---------------------END Swiper---------------------->
